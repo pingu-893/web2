@@ -1,0 +1,112 @@
+body {
+   margin: 0;
+   text-align: center; /*centers the everything in body on the website*/
+   font-family: "Montserrat", sans-serif; /*sets the font for the letters*/
+   background-color: #1B1A17;
+}
+
+h1 {
+   font-family: "Sacramento", cursive;
+   font-size: 12rem; /*this is the root em, this means that no other font mofication in parent bodies can affect the current font*/
+   margin: 200px auto 0 auto;
+   color: #950101;
+}
+
+h2 {
+   font-size: 2.5rem;
+   color: #72FFFF;
+   font-weight: normal;
+}
+
+h3 {
+   color: #990000;
+}
+
+h3#contact {
+   margin: 40px auto 40px;
+}
+
+p {
+   color: #F037A5;
+}
+
+hr {
+   border: dotted#808080 6px;
+   border-bottom: none;
+   width: 10%;
+   margin: 60px auto;
+}
+
+div.skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+}
+
+img.gif {     /*changes the size of the gif*/
+  width: 200px;
+  height: auto;
+}
+
+img#one {
+   width: 180px;
+   height: auto;
+   float: left;
+   margin-right: 50px;
+}
+
+img#two {
+   float: left;
+   margin-right: 30px;
+}
+
+img#left {    /*changes the position of the gif on the webpage*/
+   position: absolute;
+   left: 300px;
+   top: 50px;
+}
+
+img#right {
+   position: absolute;
+   right: 300px;
+   top: 50px;
+   transform: scaleX(-1); /*flips the image on the y axis (reflects it)*/
+}
+
+div.top-container {                
+   position: relative;
+   margin-bottom: 1rem;
+}
+
+div.bottom-container {
+   padding-top: 20px;
+}
+
+.btn {
+  background: #4d0a0a;
+  background-image: -webkit-linear-gradient(top, #4d0a0a, #b00909);
+  background-image: -moz-linear-gradient(top, #4d0a0a, #b00909);
+  background-image: -ms-linear-gradient(top, #4d0a0a, #b00909);
+  background-image: -o-linear-gradient(top, #4d0a0a, #b00909);
+  background-image: linear-gradient(to bottom, #4d0a0a, #b00909);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 4px 4px 3px #666666;
+  font-family: Georgia;
+  color: #dede18;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ba1cd6;
+  background-image: -webkit-linear-gradient(top, #ba1cd6, #780880);
+  background-image: -moz-linear-gradient(top, #ba1cd6, #780880);
+  background-image: -ms-linear-gradient(top, #ba1cd6, #780880);
+  background-image: -o-linear-gradient(top, #ba1cd6, #780880);
+  background-image: linear-gradient(to bottom, #ba1cd6, #780880);
+  text-decoration: none;
+}
